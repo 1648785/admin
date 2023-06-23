@@ -10,3 +10,5 @@
 ## git checkout newmaster 切换分支
 ## git remote add notes https://github.com/1648785/notes.git 给远程仓库添加别名
 ## git clone https://github.com/1648785/notes.git 克隆远程仓库
+## git pull notes master 拉取代码
+## git merge newmaster 合并分支
