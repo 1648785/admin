@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="Fetch示例代码/index.js"></script>
+    <script type="module">
+        const res = await fetch('https://study.duyiedu.com/api/herolist',{
+            method:'POST',
+            headers:{
+                'Cont':''
+            },
+            body:JSON.stringfiy({
+                content
+            })
+        });
+        const body = await res.json();
+        console.log(body);
+    </script>
+    <script>
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST','https://baidu.com');
+        const form = new FormData();//生成multipart/form-data格式文件
+        form.append('name',file);
+        xhr.send(form);
+        xhr.upload.onprogress = (e) => {
+            //请求过程
+            e.loaded/e.total;
+        }
+        xhr.onload = () => {
+            //请求完成
+        }
+        xhr.abort();//请求取消
+    </script>
+</body>
+
+</html>
+
