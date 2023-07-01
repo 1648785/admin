@@ -2,7 +2,7 @@
 >  初始化本地仓库
 ### git add example.txt
 > 添加文件到暂存区
-### git commit -m "描述信息" example.txt 
+### git commit -m "描述信息"
 > 添加文件到本地库
 ### git push notes master 
 > 将本地的master分支推送到远程库的master分支
