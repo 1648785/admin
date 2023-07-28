@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/GbwKlRZ1OMVe5Qy3GjmkpraibEV7ShHoOiarDmnYibMxhWibJibhzfbLvggG93gOTqzdicyjWn5jAmGy5dicRA9OM9ibVA/132"
+                alt="">
+            <section>我</section>
+        </div>
+        <div class="content">
+            <p>这是输出的内容</p>
+            <section class="line"></section>
+        </div>
+    </div>
+    <script>
+        const line = document.querySelector('.container .content .line');
+        setInterval(function(){
+            if(line.style.display == 'block'){
+                line.style.display = 'none'
+            }else{
+                line.style.display = 'block'
+            }
+        },300)
+    </script>
+</body>
+
+</html>

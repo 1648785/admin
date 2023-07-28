@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    height: 500px;
+    background-color: pink;
+    border: 1px solid #fff;
+    margin: 30px auto;
+}
+
+.container .box {
+    width: 80px;
+    height: 50px;
+    background-color: burlywood;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.container .box img {
+    height: 50px;
+    width: 50px;
+}
+
+.container .box section {
+    height: 50px;
+    line-height: 50px;
+}
+
+.container .content {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container .content .line {
+    height: 20px;
+    border-left: 2px solid red;
+}
