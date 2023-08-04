@@ -7,7 +7,7 @@
 ### git commit -m "描述信息"
 > 添加文件到本地库
 ### git push notes master 
-> 将本地的master分支推送到远程库的master分支
+> 将本地的master分支推送到远程库的master分支git
 ### git reflog 
 > 查看日志
 ### git log 
